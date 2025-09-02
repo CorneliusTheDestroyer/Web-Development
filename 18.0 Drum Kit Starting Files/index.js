@@ -1,7 +1,7 @@
 
-for (let index = 0; index < document.querySelectorAll(".drum").length; index++) {
-    const element = array[index];
-document.querySelector("button")[index].addEventListener("click", function (){
+for (let i = 0; i < document.querySelectorAll(".drum").length; i++) {
+    const element = array[i];
+document.querySelector("button")[i].addEventListener("click", function (){
     alert("I got clicked!");
 });    
 }
